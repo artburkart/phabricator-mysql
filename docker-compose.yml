@@ -9,4 +9,4 @@ phabricator:
     ports: ['80']
 
 database:
-    image: artburkart/docker-phabricator
+    image: artburkart/phabricator-mysql
