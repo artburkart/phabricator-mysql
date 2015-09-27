@@ -1,0 +1,12 @@
+#
+# Optional Volumes:
+#  - /opt/phabricator/conf - configuration
+#  - /var/repo - code repos
+#
+phabricator:
+    image: yesnault/docker-phabricator
+    links: ['database']
+    ports: ['80']
+
+database:
+    image: artburkart/docker-phabricator
